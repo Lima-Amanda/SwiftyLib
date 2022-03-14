@@ -17,6 +17,7 @@
 		3AE6AE8E27DFAC92000B0B93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6AE7D27DFAC91000B0B93 /* ContentView.swift */; };
 		3AE6AE8F27DFAC92000B0B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE6AE7E27DFAC92000B0B93 /* Assets.xcassets */; };
 		3AE6AE9027DFAC92000B0B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE6AE7E27DFAC92000B0B93 /* Assets.xcassets */; };
+		3AE6AE9827DFB706000B0B93 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6AE9727DFB706000B0B93 /* SwiftyLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		3AE6AE8327DFAC92000B0B93 /* SwiftyLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE6AE8827DFAC92000B0B93 /* SwiftyLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE6AE8A27DFAC92000B0B93 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3AE6AE9727DFB706000B0B93 /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		3AE6AE5727DFABB9000B0B93 = {
 			isa = PBXGroup;
 			children = (
+				3AE6AE9727DFB706000B0B93 /* SwiftyLib.swift */,
 				3AE6AE6327DFABB9000B0B93 /* SwiftyLib */,
 				3AE6AE6F27DFABB9000B0B93 /* SwiftyLibTests */,
 				3AE6AE7B27DFAC91000B0B93 /* Shared */,
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE6AE6627DFABB9000B0B93 /* SwiftyLib.docc in Sources */,
+				3AE6AE9827DFB706000B0B93 /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +526,7 @@
 		3AE6AE7927DFABB9000B0B93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FUU6972KHW;
@@ -538,6 +543,7 @@
 		3AE6AE7A27DFABB9000B0B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FUU6972KHW;
